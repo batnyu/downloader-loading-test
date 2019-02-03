@@ -1,0 +1,14 @@
+<div class="loading" *ngFor="let loading of loadings">
+  <mat-progress-bar
+    mode="determinate"
+    [value]="loading.progress"
+  ></mat-progress-bar>
+  <span>{{ loading.message }}</span>
+</div>
+<div class="loading">
+  <mat-progress-bar
+    mode="determinate"
+    [value]="getMinProgress()"
+  ></mat-progress-bar>
+  <span>{{ loadings.length }} processes running</span>
+</div>

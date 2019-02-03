@@ -1,0 +1,11 @@
+.loading {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+
+  mat-progress-bar {
+    width: 200px;
+    margin-right: 10px;
+  }
+}

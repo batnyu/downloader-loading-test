@@ -1,0 +1,18 @@
+<div class="container">
+  <h1 class="title">{{ status }}</h1>
+  <div>
+    <button mat-stroked-button color="primary" (click)="downloadFileBig()">
+      Download file big
+    </button>
+    <button mat-stroked-button color="primary" (click)="downloadFileSmall()">
+      Download file small
+    </button>
+    <button
+      mat-stroked-button
+      color="primary"
+      (click)="downloadMultipleFiles()"
+    >
+      Download multiples files
+    </button>
+  </div>
+</div>

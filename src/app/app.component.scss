@@ -1,0 +1,15 @@
+#page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .router {
+    flex: 1;
+  }
+
+  app-loading-page {
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+  }
+}
